@@ -1,0 +1,3 @@
+node_modules/
+guideSecret.json
+.env
