@@ -4,7 +4,7 @@ import bs58 from "bs58";
 
 //STEP 1 - Connect to Solana Network
 const endpoint =
-  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/7a4b1449eb7c342487be87e219813391bd5a14bc/"; 
+  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/<000 Replace with API>/";
 const solanaConnection = new Connection(endpoint);
 
 //STEP 2 - Generate a New Solana Wallet

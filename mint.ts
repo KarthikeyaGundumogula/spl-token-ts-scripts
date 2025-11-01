@@ -13,7 +13,7 @@ import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
 import secret from "./guideSecret.json";
 
 const umi = createUmi(
-  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/7a4b1449eb7c342487be87e219813391bd5a14bc/"
+  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/<000 Replace with API>/"
 );
 
 const userWallet = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(secret));
@@ -24,7 +24,6 @@ const metadata = {
   symbol: "KPR",
   description: "These are Kapten Rewards",
 };
-
 
 const mint = generateSigner(umi);
 umi.use(signerIdentity(userWalletSigner));

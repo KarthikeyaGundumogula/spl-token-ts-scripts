@@ -16,9 +16,8 @@ import * as fs from "fs";
 import secret from "../guideSecret.json";
 
 const QUICKNODE_RPC =
-  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/7a4b1449eb7c342487be87e219813391bd5a14bc/";
+  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/<000 Replace with API>/";
 const umi = createUmi(QUICKNODE_RPC);
-
 
 const creatorWallet = umi.eddsa.createKeypairFromSecretKey(
   new Uint8Array(secret)
@@ -27,7 +26,6 @@ const creator = createSignerFromKeypair(umi, creatorWallet);
 umi.use(keypairIdentity(creator));
 umi.use(mplTokenMetadata());
 umi.use(mockStorage());
-
 
 const nftDetail = {
   name: "Kapten Vault",

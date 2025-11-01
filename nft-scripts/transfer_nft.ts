@@ -14,7 +14,7 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 //Create a Solana devnet connection
 const commitment: Commitment = "confirmed";
 const connection = new Connection(
-  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/7a4b1449eb7c342487be87e219813391bd5a14bc/",
+  "https://thrilling-crimson-telescope.solana-devnet.quiknode.pro/<000 Replace with API>/",
   commitment
 );
 
