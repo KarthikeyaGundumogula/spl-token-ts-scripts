@@ -20,9 +20,9 @@ const userWallet = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(secret));
 const userWalletSigner = createSignerFromKeypair(umi, userWallet);
 
 const metadata = {
-  name: "Kapten Faisla",
-  symbol: "KPF",
-  description: "This is the Kapten Faisla",
+  name: "Kapten Rewards",
+  symbol: "KPR",
+  description: "These are Kapten Rewards",
 };
 
 

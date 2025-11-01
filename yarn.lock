@@ -148,6 +148,11 @@
     "@metaplex-foundation/umi-serializers-encodings" "^1.4.1"
     "@metaplex-foundation/umi-serializers-numbers" "^1.4.1"
 
+"@metaplex-foundation/umi-storage-mock@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-storage-mock/-/umi-storage-mock-1.4.1.tgz#4fcd5da242713d6d18c5bcf0d8126598d1aa46ac"
+  integrity sha512-8dveNwscGUnEeL1OhtEBhSOj8LcLGZBXbkm6XyKu54N/NfDg20ZDzsNmoP5vRO7qTmqUouZpH4zbAeQ42+dZ4g==
+
 "@metaplex-foundation/umi-transaction-factory-web3js@^1.4.1":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@metaplex-foundation/umi-transaction-factory-web3js/-/umi-transaction-factory-web3js-1.4.1.tgz#3774a3575a4741821575403cc4970a824ae5fdd5"

@@ -19,7 +19,9 @@ const connection = new Connection(
 );
 
 // Mint address
-const mint = new PublicKey("GTUUnFV7JpPXPEaSXjhqjZJqtRNsMhvEpnyZdFdHQ2oF");
+// const mint = new PublicKey("GTUUnFV7JpPXPEaSXjhqjZJqtRNsMhvEpnyZdFdHQ2oF"); kapten faisla
+// const mint = new PublicKey("3zMA7WYafPHttK5ymfcfZ3Z8b2ickmLxhMohLcgEccN1"); // kapten rewards
+const mint = new PublicKey("5NwWcMgapHUkSixkJD9HJ2TrVKBN5FSTTZ3VCwGxFgQx"); // kapten Vault
 
 // Recipient address
 const to = new PublicKey("4skPC47LyisLYW2yJPQx57S7nE9Jm86ZsgaCJemd45BQ");
@@ -49,7 +51,7 @@ const to = new PublicKey("4skPC47LyisLYW2yJPQx57S7nE9Jm86ZsgaCJemd45BQ");
       fromTokenAccount.address,
       toTokenAccount.address,
       keypair.publicKey,
-      1 * 10 ** 8,
+      1,
       []
     );
   } catch (e) {
